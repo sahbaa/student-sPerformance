@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import OrdinalEncoder
-mydata=pd.read_csv('')
+mydata=pd.read_csv('https://github.com/sahbaa/student-sPerformance/blob/master/StudentsPerformance%20(1).csv')
 
 for col in mydata.columns:
     print(col,pd.isnull(mydata[col]).sum())
